@@ -29,18 +29,20 @@ REST-сервис для управления личными финансами 
 ```bash
 git clone https://github.com/yourusername/finance-manager.git
 cd finance-manager
+```
 
 
 ### 2. Установите зависимости
 ```bash
 pip install -r requirements.txt
-
+```
 
 ### 3. Тесты
 ```bash
 pytest
-
+```
 
 ### 4. Непосредственно main.py
-```
+```bash
 fastapi dev app/main.py
+```
